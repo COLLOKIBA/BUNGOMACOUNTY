@@ -1,6 +1,6 @@
 // components/Subhero.tsx
 import React from 'react';
-import styles from './Subhero.module.css';
+import styles from './SubHero.module.css';
 import ReadMoreButton from './ReadMoreButton';
 
 const Subhero: React.FC = () => {
@@ -17,7 +17,6 @@ and most importantly, a conducive environment with beautiful, warm people as nei
   we want to know where we can be of help, we want to know what we can do to change and improve this county. We want to know where we
    have made positive change and where we improve some more. Karibu Bungoma!”</p>
    {/* //add this below onClick={handleReadMore} */}
-   <ReadMoreButton  /> 
   </section>
   );
   
