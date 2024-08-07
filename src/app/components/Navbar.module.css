@@ -1,0 +1,52 @@
+/* styles/navbar.module.css */
+
+.navbar {
+  /* Your navbar styling */
+  background-color: #f8f9fa; /* Example background color */
+  padding: 5px;
+}
+
+.container {
+  /* Use flexbox to align items on the same level */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  /* Optional: Adjust styling of logo container */
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  /* Use flexbox for the links container */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust spacing between links */
+  background-color: #ffffff;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+
+.links a, .links > div  {
+  /* Styling for all links */
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.links a.active, .links > div.active {
+  /* Styling for the active link */
+  color: #28a745; /* Change this to the color you want for the active link */
+}
+
+.links a:hover, .links > div:hover {
+  /* Styling for hover effect */
+  color: #28a745; /* Change this to the color you want on hover */
+}

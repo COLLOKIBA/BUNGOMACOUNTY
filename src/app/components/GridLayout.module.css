@@ -1,0 +1,29 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 50px;
+  }
+  
+  .row {
+    display: contents; /* Allows grid items to span multiple rows */
+  }
+  
+  .subheroContainer {
+    grid-column: 1 / 2; /* Left column */
+  }
+  
+  .picturesContainer {
+    grid-column: 2 / 3; /* Right column */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .picture {
+    border-radius: 50%;
+    height: 350px;
+    width: 409px;
+    
+  }
+  
