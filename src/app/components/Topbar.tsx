@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import styles from './topbar.module.css';
+import styles from './Topbar.module.css';
 
 const Topbar: React.FC = () => {
   return (
