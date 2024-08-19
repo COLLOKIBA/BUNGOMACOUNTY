@@ -20,6 +20,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.26.0",
     "react-slick": "^0.30.2",
+    "sanity": "^3.54.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.4"
   },
