@@ -354,7 +354,7 @@ const DepartmentDescription: React.FC<DepartmentDescriptionProps> = ({ departmen
       )}
 
       {/* Conditionally render the toggle button based on the department name */}
-      {departmentName !== 'County Secretaty & Head of Public Service' && (
+      {departmentName !== 'County Public Service Board' && departmentName !== 'Governor' && departmentName !== 'Deputy Governor' && departmentName !== 'County Secretaty & Head of Public Service' && departmentName !=='County Attorney' && (
         <button className={styles.toggleButton} onClick={handleToggleView}>
           Show {activeView === 'cecm' ? 'Chief Officers' : 'C.E.C.M'}
         </button>

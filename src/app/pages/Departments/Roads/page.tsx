@@ -110,7 +110,7 @@
         <Topbar />
         <Navbar />
         <DepartmentDescription
-          departmentName="Health and Education Department"
+          departmentName="Roads, Transport, Infrastructure and Public Works"
           // chiefOfficers={[ChiefOfficerData1, ChiefOfficerData2]}
             chiefOfficers={[ChiefOfficerData1]}
           cecm={CECMData}

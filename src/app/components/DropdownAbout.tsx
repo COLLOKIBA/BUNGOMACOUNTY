@@ -14,8 +14,8 @@ const DropdownAbout: React.FC = () => {
         <Link href="/pages/about/cs">County Secretary and Head of Public Service</Link>
         <Link href="/pages/about/attorney">County Attorney</Link>
         <Link href="/pages/about/serviceboard">County Public Service Board</Link>
-        <Link href="/pages/about/cecms">County Excecutive Members</Link>
-        <Link href="/pages/about/chiefOfficers">County Chief Officers</Link>
+        {/* <Link href="/pages/about/cecms">County Excecutive Members</Link>
+        <Link href="/pages/about/chiefOfficers">County Chief Officers</Link> */}
       </div>
     </div>
   );

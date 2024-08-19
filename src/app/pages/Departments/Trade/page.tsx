@@ -58,12 +58,12 @@
   const DepartmentPage: React.FC = () => {
     // Chief Officer Data
     const ChiefOfficerData1 = {
-      name: 'Dr. Magrina Mayama',
-      position: 'Chief Officer, Health Department',
+      name: 'Reuben Wambwa',
+      position: 'Chief Officer, Trade, Energy and Industrilization',
       email: '@example.com',
       phone: '+254',
-      description: 'Dr. Magrina Mayama is responsible for overseeing the ...',
-      imageUrl: '/chiefhealth.jpg',
+      description: 'Reuben Wambwa is responsible for overseeing the ...',
+      imageUrl: '/.jpg',
     };
   
     // const ChiefOfficerData2 = {
@@ -77,13 +77,13 @@
   
     // CECM Data
     const CECMData = {
-      name: 'Ms. Carolyne Makali Khalayi',
+      name: 'Dr. Wamamili David Wanyonyi',
       position: 'County Executive Committee Member, Health Department',
       email: 'jane.smith@example.com',
       phone: '+254',
       description: (
         <div>
-          <p>
+          {/* <p>
             Ms. Carolyne Makali Khalayi hails from the Luhya tribe and is a proud resident of Kabuchai Constituency. 
             She brings a wealth of experience and dedication to the Health Department.
           </p>
@@ -99,10 +99,10 @@
           <ul>
             <li>Former Records Management Officer at the National Government Constituency Development Fund, Kabuchai Constituency.</li>
             <li>Served as a Research Assistant at the National Taxpayers’ Association.</li>
-          </ul>
+          </ul> */}
         </div>
       ),
-      imageUrl: '/carolynemakalakhalayi.jpg',
+      imageUrl: '/david.jpg',
     };
   
     return (
@@ -110,7 +110,7 @@
         <Topbar />
         <Navbar />
         <DepartmentDescription
-          departmentName="Health and Education Department"
+          departmentName="Trade, Energy and Industrilization"
           // chiefOfficers={[ChiefOfficerData1, ChiefOfficerData2]}
             chiefOfficers={[ChiefOfficerData1]}
           cecm={CECMData}

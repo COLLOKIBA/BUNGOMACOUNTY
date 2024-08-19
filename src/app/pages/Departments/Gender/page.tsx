@@ -58,22 +58,22 @@
   const DepartmentPage: React.FC = () => {
     // Chief Officer Data
     const ChiefOfficerData1 = {
-      name: 'Dr. Magrina Mayama',
-      position: 'Chief Officer, Health Department',
+      name: 'Timothy Wanjala',
+      position: 'Chief Officer, Youth and Sports',
       email: '@example.com',
       phone: '+254',
-      description: 'Dr. Magrina Mayama is responsible for overseeing the ...',
-      imageUrl: '/chiefhealth.jpg',
+      description: 'Timothy Wanjala is responsible for overseeing the ...',
+      imageUrl: '/.jpg',
     };
   
-    // const ChiefOfficerData2 = {
-    //   name: 'Jane Doe',
-    //   position: 'Chief Officer, Education Department',
-    //   email: 'jane.doe@example.com',
-    //   phone: '+254123456789',
-    //   description: 'Jane Doe is responsible for educational initiatives ...',
-    //   imageUrl: '/chiefofeducation.jpg',
-    // };
+    const ChiefOfficerData2 = {
+      name: 'David Maling’a',
+      position: 'Chief Officer, Gender & Culture',
+      email: '@example.com',
+      phone: '',
+      description: 'David Malinga is responsible for educational initiatives ...',
+      imageUrl: '/chiefofeducation.jpg',
+    };
   
     // CECM Data
     const CECMData = {
@@ -110,9 +110,8 @@
         <Topbar />
         <Navbar />
         <DepartmentDescription
-          departmentName="Health and Education Department"
-          // chiefOfficers={[ChiefOfficerData1, ChiefOfficerData2]}
-            chiefOfficers={[ChiefOfficerData1]}
+          departmentName="Gender, Youth, Culture & Sports"
+          chiefOfficers={[ChiefOfficerData1, ChiefOfficerData2]}
           cecm={CECMData}
         />
         <Footer />
