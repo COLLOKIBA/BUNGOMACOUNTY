@@ -67,7 +67,7 @@
     };
   
     const ChiefOfficerData2 = {
-      name: 'David Maling’a',
+      name: 'David Maling&apos;a',
       position: 'Chief Officer, Gender & Culture',
       email: '@example.com',
       phone: '',
