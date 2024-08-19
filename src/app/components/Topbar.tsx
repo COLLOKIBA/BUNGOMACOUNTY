@@ -14,7 +14,7 @@ const Topbar: React.FC = () => {
         <Link href="/staff-mail" className={styles.link}>
           Staff Mail
         </Link>
-        <Link href="/pages/ContactUs" className={styles.link}>
+        <Link href="/pages/contactUs" className={styles.link}>
           Contact Us
         </Link>
         <Link href="https://bhrms.co.ke/" className={styles.link} target="_blank" rel="noopener noreferrer">

@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Topbar from '../../components/Topbar';
-import styles from './ContactUs.module.css';
+import styles from './contactUs.module.css';
 
 const ContactUs: React.FC = () => {
   const [formData, setFormData] = useState({
