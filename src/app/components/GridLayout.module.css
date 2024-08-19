@@ -1,29 +1,46 @@
 .gridContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.picturesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.picture {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover;
+}
+
+.subheroContainer {
+  flex-grow: 1;
+  margin-left: 16px;
+}
+
+/* Mobile View: Adjustments for screens with max width of 411px */
+@media (max-width: 411px) {
+  .gridContainer {
+    flex-direction: column;
+    padding: 8px;
   }
-  
-  .row {
-    display: contents; /* Allows grid items to span multiple rows */
-  }
-  
+
   .subheroContainer {
-    grid-column: 1 / 2; /* Left column */
+    margin-left: 0;
   }
-  
-  .picturesContainer {
-    grid-column: 2 / 3; /* Right column */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+
   .picture {
-    border-radius: 50%;
-    height: 350px;
-    width: 409px;
-    
+    width: 100vw; /* Adjust the size for mobile */
+    height: 150px;
+    margin-bottom: 8px;
+    border-radius: 2%;
+ 
   }
-  
+}

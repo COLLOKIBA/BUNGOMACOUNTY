@@ -4,6 +4,7 @@ import Topbar from "./components/Topbar"
 import NextJsCarousel from "./components/Carousel"
 import GridLayout from "./components/GridLayout"
 import GreenLine from "./components/GreenLine"
+import Footer from "./components/Footer"
 
 export default function Page() {
 
@@ -13,5 +14,6 @@ export default function Page() {
   <NextJsCarousel/>
   <GridLayout/>
   <GreenLine/>
+  <Footer/>
   </>
 }

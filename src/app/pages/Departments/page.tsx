@@ -2,6 +2,7 @@
 
 import Navbar from "../../components/Navbar";
 import Topbar from "../../components/Topbar";
+import Footer from "../../components/Footer";
 
 const Tenders: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Tenders: React.FC = () => {
       <Navbar/>
 
       <h1> Tenders</h1>
+      <Footer/>
     </div>
   );
 };
