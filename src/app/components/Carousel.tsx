@@ -53,3 +53,4 @@ export default class NextJsCarousel extends Component {
         );
     }
 }
+
