@@ -9,18 +9,16 @@ import EmblaCarousel from "./components/EmblaCarousel"
 
 export default function Page() {
   const slides = [
-    '/1.png',
-    '/images/slide2.png',
-    '/Nairobi-City-County-15-2.jpg',
-    '/images/slide4.jpg',
+    '/1.jpg',
+    '/2.jpg',
+    '/3.jpg',
+    '/4.jpg',
   ];
   
   return <>
   <Topbar/>
   <Navbar/>
-  <div>
-      <EmblaCarousel slides={slides} />
-    </div>
+  <EmblaCarousel slides={slides} />
   <GridLayout/>
   <GreenLine/>
   <Footer/>
